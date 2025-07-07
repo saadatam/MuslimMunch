@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Vite cache
+.vite/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files
+.DS_Store
+
+# Optional: OS generated files
+*.swp
+*.swo
+
+# Optional: coverage reports
+coverage/
+*.lcov
+
+# Optional: local build/test artifacts
+*.local
+
+# Optional: lock files (if you want to ignore them, but usually you commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml 
+MuslimMunch/src/vite-env.d.ts
